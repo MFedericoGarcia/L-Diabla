@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Diabla Santa Clara</title>
+<meta name = "viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+
+ <link rel="icon" href="/Sources/D icono sin fondo rojo cuadrado.png">
+
+
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span> Complejo Diabla </span>
+            </div>
+            <div class="site-nav">
+                <span id="nav-btn"> Menú <i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+
+        <div class="head-bottom flex">
+            <h2>Un hermoso y acogedor lugar para descansar</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, aspernatur? Voluptate, natus! Consequuntur id in necessitatibus ut natus voluptatibus fuga obcaecati iure odit! Deleniti voluptatibus commodi tempora consectetur sit totam.</p>
+            <button type="button" class="head-btn"> Contactar
+            </button>
+        </div>
+    </header>
+    <!-- Fin Header -->
+
+    <!-- Navigation bar -->
+    <div class = "sidenav" id = "sidenav">
+        <span class = "cancel-btn" id = "cancel-btn">
+            <i class = "fas fa-times"></i>
+        </span>
+
+        <ul class = "navbar">
+            <li><a href = "#header">Inicio</a></li>
+            <li><a href = "#services">Servicios</a></li>
+            <li><a href = "#rooms">Departamentos</a></li>
+            <li><a href = "#mapa">Mapa</a></li>
+        </ul>
+        <!-- <button class = "btn sign-up">sign up</button>
+        <button class = "btn log-in">log in</button> -->
+    </div>
+    <!-- end of side navbar -->
+
+    <!-- fullscreen modal -->
+    <div id = "modal"></div>
+    <!-- end of fullscreen modal -->
+
+    <!-- body content  -->
+    <section class = "services sec-width" id = "services">
+        <div class = "title">
+            <h2>services</h2>
+        </div>
+        <div class = "services-container">
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Cocina Completa</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                    <button type = "button" class = "btn">Saber más</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <ion-icon name="car"></ion-icon>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Estacionamiento Privado</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                    <button type = "button" class = "btn">Saber más</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Servicio de Limpieza</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                    <button type = "button" class = "btn">Saber más</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-door-closed"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Seguridad</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                    <button type = "button" class = "btn">Saber más</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+        </div>
+    </section>
+
+    <!-- <div class = "book">
+        <form class = "book-form">
+            <div class = "form-item">
+                <label for = "checkin-date">Check In Date: </label>
+                <input type = "date" id = "chekin-date">
+            </div>
+            <div class = "form-item">
+                <label for = "checkout-date">Check Out Date: </label>
+                <input type = "date" id = "chekout-date">
+            </div>
+            <div class = "form-item">
+                <label for = "adult">Adults: </label>
+                <input type = "number" min = "1" value = "1" id = "adult">
+            </div>
+            <div class = "form-item">
+                <label for = "children">Children: </label>
+                <input type = "number" min = "1" value = "1" id = "children">
+            </div>
+            <div class = "form-item">
+                <label for = "rooms">Rooms: </label>
+                <input type = "number" min = "1" value = "1" id = "rooms">
+            </div>
+            <div class = "form-item">
+                <input type = "submit" class = "btn" value = "Book Now">
+            </div>
+        </form>
+    </div>  -->
+
+    <section class = "rooms sec-width" id = "rooms">
+        <div class = "title">
+            <h2>Habitaciones</h2>
+        </div>
+        <div class = "rooms-container">
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+               <img src = "/Sources/departamento1.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Departamento 1</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
+                    <p class = "rate">
+                        <span>$99.00 /</span> Por noche
+                    </p>
+                  <a href="javascript:abrir()"><button type = "button" class = "btn">Fotos</button></a>
+                </div>
+            </article>
+
+            
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "/Sources/departamento2.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Departamento 2</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
+                    <p class = "rate">
+                        <span>$99.00 /</span> Por noche
+                    </p>
+                    <button type = "button" class = "btn">Fotos</button>
+                </div>
+                
+            </div>
+        </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                  <img src = "/Sources/departamento3.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Departamento 2</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
+                    <p class = "rate">
+                        <span>$99.00 /</span> Por noche
+                    </p>
+                    <button type = "button" class = "btn">Fotos</button>
+                </div>
+
+               
+            </article>
+            <!-- end of single room -->
+        </div>
+       
+    </section>
+    
+    <div class="modal2" id="modal2">
+
+        <div class="popup">
+
+            <div><a href="javascript:cerrar()" class="cancel-btn2" ><img src="/Sources/cancelar.png"></div></a> 
+    
+            <div class="grid-container">
+                <div class="grid-item tall" style="background-image: url('/Sources/arriba/FDG_2768.jpg')"></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/FDG_2769.jpg');
+                      "></div>
+              
+                <div class="grid-item wide" style="
+                        background-image: url('/Sources/arriba/FDG_2772.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/FDG_2774.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/FDG_2776.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/FDG_2779.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/FDG_2782.jpg');
+                      "></div>
+                <div class="grid-item" style="background-image: url('/Sources/arriba/FDG_2786.jpg')"></div>
+                <div class="grid-item tall wide" style="
+                        background-image: url('/Sources/arriba/FDG_2789.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/IMG_9162.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/IMG_9173.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/IMG_9174.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/IMG_9176.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/IMG_9178.jpg');
+                      "></div>
+                <div class="grid-item" style="
+                        background-image: url('/Sources/arriba/IMG_9176.jpg');
+                      "></div>
+              </div>
+
+
+        </div>
+
+    </div>
+
+    
+    <section id="mapa">
+        <div id="map"></div>
+    </section>
+    
+     <!-- footer -->
+     <footer class = "footer">
+        <div class = "footer-container">
+            <div>
+                <h2>Sobre nosotros </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente mollitia doloribus provident? Eos quisquam aliquid vel dolorum, impedit culpa.</p>
+                <ul class = "social-icons">
+                    <li class = "flex">
+                        <i class = "fa fa-twitter fa-2x"></i>
+                    </li>
+                    <li class = "flex">
+                        <i class = "fa fa-facebook fa-2x"></i>
+                    </li>
+                    <li class = "flex">
+                        <i class = "fa fa-instagram fa-2x"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2> Links</h2>
+                <a href = "#">Blog</a>
+                <a href = "#">Rooms</a>
+                <a href = "#">Subscription</a>
+                <a href = "#">Gift Card</a>
+            </div>
+
+            <div>
+                <h2>Privacidad</h2>
+                <a href = "#">Career</a>
+                <a href = "#">About Us</a>
+                <a href = "#">Contact Us</a>
+                <a href = "#">Services</a>
+            </div>
+
+            <div>
+                <h2>Consultas
+
+                </h2>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        889 Quintana, Camet Norte, Santa Clara, BS.AS. Argentina
+                    </span>
+                </div>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +54 011 5555 5555
+                    </span>
+                </div>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        DiablaSantaClara@gmail.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+}
+
+
+    <!-- ICONOS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+
+    <script>
+
+        function abrir(){
+            document.getElementById("modal2").style.display="block";
+        }
+
+        function cerrar(){
+            document.getElementById("modal2").style.display="none";
+        }
+    </script>
+   
+
+</body>
+</html>
